@@ -1,0 +1,14 @@
+{
+  "R1": {
+    "ip": "192.168.1.1",
+    "vendor": "cisco",
+    "type": "router-cat1",
+    "model": "3660"
+  },
+  "R2": {
+    "ip": "192.168.1.2",
+    "vendor": "cisco",
+    "type": "router-cat2",
+    "model": "7200"
+  }
+}

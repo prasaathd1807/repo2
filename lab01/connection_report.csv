@@ -1,0 +1,4 @@
+Timestamp,Device,Site,IP Address,Status,Message
+2026-06-11 17:26:58,R1,Chennai,192.168.10.1,SUCCESS,Connected and command executed successfully
+2026-06-11 17:27:00,R2,Bangalore,192.168.10.2,SUCCESS,Connected and command executed successfully
+2026-06-11 17:27:01,R3,Mumbai,192.168.10.3,SUCCESS,Connected and command executed successfully

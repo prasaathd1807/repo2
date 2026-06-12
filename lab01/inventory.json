@@ -1,0 +1,24 @@
+{
+    "routers":{
+
+    "R1": {
+        "device_type": "cisco_ios",
+        "host": "192.168.10.1",
+        "site": "Chennai"
+    },
+
+    "R2": {
+       "device_type": "cisco_ios",
+        "host": "192.168.10.2",
+        "site": "Bangalore"
+    },
+
+    "R3": {
+       "device_type": "cisco_ios",
+        "host": "192.168.10.3",
+        "site": "Mumbai"
+    }
+    
+    }
+}
+

@@ -1,0 +1,16 @@
+{
+  "routers": {
+    "R1": {
+      "device_type": "cisco_ios",
+      "host": "192.168.10.1"
+    },
+    "R2": {
+      "device_type": "cisco_ios",
+      "host": "192.168.10.2"
+    },
+    "R3": {
+      "device_type": "cisco_ios",
+      "host": "192.168.10.3"
+    }
+  }
+}

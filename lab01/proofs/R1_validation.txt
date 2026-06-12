@@ -1,0 +1,21 @@
+
+===== SHOW IP INTERFACE BRIEF =====
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            192.168.10.1    YES NVRAM  up                    up      
+FastEthernet0/1            192.168.20.1    YES manual up                    up      
+FastEthernet1/0            unassigned      YES NVRAM  administratively down down    
+FastEthernet2/0            unassigned      YES NVRAM  administratively down down    
+Loopback10                 10.10.10.1      YES manual up                    up      
+
+===== SHOW BANNER =====
+banner motd ^CAuthorized Access Only^C
+
+===== SHOW LOOPBACK =====
+Building configuration...
+
+Current configuration : 96 bytes
+!
+interface Loopback10
+ description Created_By_Python
+ ip address 10.10.10.1 255.255.255.0
+end
