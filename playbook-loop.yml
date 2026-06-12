@@ -1,0 +1,25 @@
+- name: Configure interfaces safely
+  hosts: Routers
+  gather_facts: no
+
+  vars:
+    interfaces:
+      - FastEthernet1/0
+      - FastEthernet2/0
+      - FastEthernet0/99
+
+  tasks:
+
+    - name: Configure interface
+      cisco.ios.ios_config:
+        parents: "interface {{ item }}"
+        lines:
+          - description Managed by Ansible
+          - no shutdown
+      loop: "{{ interfaces }}"
+      register: config_result
+      ignore_errors: yes
+
+    - name: Display results
+      debug:
+        var: config_result
